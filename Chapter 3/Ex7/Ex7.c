@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void) {
-    int sm;
-    printf("Type your heigth in sm: ");
-    scanf("%d", &sm);
-    printf("\nYour heigth in dyums is %.3f", sm/2.54);
+    int cm;
+    printf("Type your heigth in cm: ");
+    scanf("%d", &cm);
+    printf("\nYour heigth in inches is %.3f", cm/2.54);
     printf("\n\n");
 }
